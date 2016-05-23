@@ -1,7 +1,11 @@
 # PRAG
 Développement d'une application pour une association
 
++ 1e juin : rendre CDCF
++ 14 juin : finir conception
++ 29 juin : finir développement
 + 30 juin : mise en production, présentation final
++ 1e juillet : finition
 
 + norme ISO X50151 à lire pour comprendre CDCF
 

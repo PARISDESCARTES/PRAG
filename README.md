@@ -15,7 +15,7 @@ Développement d'une application pour une association
 
   + hamiche.samy@gmail.com
   + medhi-beauvillain@gmail.com
-  + yanis-chenfi75@gmil.com
+  + yanis-chenfi75@gmail.com
 
 + besoins
   + [Lot 1] socle de l'application (site vitrine + gestion des médecins)

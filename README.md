@@ -18,6 +18,11 @@ Développement d'une application pour une association
   + [Lot 2] Gestion des soins médicaux
   + [Lot 3] Gestion des soins
 
++ groupes
+  + tout le monde travaille sur le lot 1 + CDCF
+  + la moitié travaille sur lot 2 et l'autre moitié sur lot 3
+  + Réunir les travaux
+
 + Projet iMan
   + Paralysie cérébrale sous reconnue en France
   + Plus d'infos

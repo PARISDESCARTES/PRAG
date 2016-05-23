@@ -17,3 +17,15 @@ Développement d'une application pour une association
   + [Lot 1] socle de l'application (site vitrine + gestion des médecins)
   + [Lot 2] Gestion des soins médicaux
   + [Lot 3] Gestion des soins
+
++ Projet iMan
+  + Paralysie cérébrale sous reconnue en France
+  + Plus d'infos
+  + Créer un centre d'accueil et de loisirs inclusifs (CALI)
+  + Proposer du matériel à moindre coût
+
++ Donner plus de visibilité aux mécènes
++ Suivi pour les praticiens (communication)
++ Administrateur = trésorier
++ 1 page pour tous les enfants
++ 

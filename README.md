@@ -28,4 +28,6 @@ Développement d'une application pour une association
 + Suivi pour les praticiens (communication)
 + Administrateur = trésorier
 + 1 page pour tous les enfants
-+ 
+
++ Possibilité de faire un don ciblé pour un enfant
++ Possibilité de faire un don à X enfants

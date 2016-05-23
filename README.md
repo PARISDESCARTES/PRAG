@@ -8,11 +8,12 @@ Développement d'une application pour une association
 + voir documents dans COMMUN/Miage 1e année/PRAG
 
 + contacts :
-++ hamiche.samy@gmail.com
-++ medhi-beauvillain@gmail.com
-++ yanis-chenfi75@gmil.com
+
+  + hamiche.samy@gmail.com
+  + medhi-beauvillain@gmail.com
+  + yanis-chenfi75@gmil.com
 
 + besoins
-++ [Lot 1] socle de l'application (site vitrine + gestion des médecins)
-++ [Lot 2] Gestion des soins médicaux
-++ [Lot 3] Gestion des soins
+  + [Lot 1] socle de l'application (site vitrine + gestion des médecins)
+  + [Lot 2] Gestion des soins médicaux
+  + [Lot 3] Gestion des soins

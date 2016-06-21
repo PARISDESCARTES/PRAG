@@ -1,15 +1,30 @@
-<!doctype html>
-<html>	
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IMAN</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
 
-	<head>
-		<link rel='icon' href='./favicon.ico' type='images/x-icon'>
-		<!-- <link rel='stylesheet' type='text/css' href='preprod.css' /> -->
-		<meta charset='UTF-8'>
-		<title>Preprod</title>
-	</head>
+    <!-- 1. Load libraries -->
+     <!-- Polyfill(s) for older browsers -->
+    <script src="https://npmcdn.com/core-js/client/shim.min.js"></script>
+
+    <script src="https://npmcdn.com/zone.js@0.6.12?main=browser"></script>
+    <script src="https://npmcdn.com/reflect-metadata@0.1.3"></script>
+    <script src="https://npmcdn.com/systemjs@0.19.27/dist/system.src.js"></script>
+
+    <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
+    <script>
+      System.import('app').catch(function(err){ console.error(err); });
+    </script>
+  </head>
+
+  <!-- 3. Display the application -->
+  <body>
+	<h1>IMAN</h1>
+    <test>Chargement en cours...</test>
 	
-	<body>
-		<h1>Bienvenue sur la préprod</h1>
-	</body>
-	
+  </body>
 </html>

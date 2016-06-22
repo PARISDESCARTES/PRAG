@@ -1,0 +1,17 @@
+:host {
+  background-color: #fdfdfd;
+  display: inline;
+  height: 48px;
+  margin-right:1em;
+}
+
+.toolbar{
+  display: inline;
+  float : right;
+  font : 1em Myriad;
+  font-style : italic;
+  color : #ff6699;
+}
+
+
+

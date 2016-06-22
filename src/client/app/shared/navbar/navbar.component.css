@@ -1,0 +1,23 @@
+:host {
+  border-color: #e1e1e1;
+  border-style: solid;
+  border-width: 0 0 1px;
+  display: block;
+  margin-right:0.5em;
+}
+
+nav a {
+  color: #009999;
+  font-size: 1em;
+  font-weight: bold;
+  font-family : Univers LT Std 55 Roman;
+  line-height: 50px;
+  margin-left: 2em;
+  text-decoration: none;
+  vertical-align: middle;
+  float:right;
+}
+
+nav a.router-link-active {
+  color: #106cc8;
+}

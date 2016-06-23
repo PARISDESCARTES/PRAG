@@ -7,6 +7,11 @@ div {
   padding: 0;
 }
 
+sd-home {
+  padding-right:15px;
+  padding-left: 15px;
+}
+
 /* Box-sizing border-box */
 * {
   box-sizing: border-box;

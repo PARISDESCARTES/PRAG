@@ -25,9 +25,9 @@ export class TabMenuComponent {
     this.items = [
       {label: 'Accueil', icon: 'fa-home',  routerLink: ['/']},
       {label: 'Enfant', icon: 'fa-child',  routerLink: ['/enfant']},
-      {label: 'Fil d\'actualité', icon: 'fa-user-md',  routerLink: ['/filactu']},
+      {label: 'Fil d\'actualité', icon: 'fa-user-md',  routerLink: ['/filActu']},
       {label: 'Programme', icon: 'fa-calendar',  routerLink: ['/programme']},
-      {label: 'Compte Rendu', icon: 'fa-support',  routerLink: ['/compterendu']},
+      {label: 'Compte Rendu', icon: 'fa-support',  routerLink: ['/compteRendu']},
       {label: 'Dashboard', icon: 'fa-dashboard',  routerLink: ['/dashboard']},
       {label: 'Bilans', icon: 'fa-text-o',  routerLink: ['/bilan']}
     ];

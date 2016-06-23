@@ -23,6 +23,7 @@ import {
 import { AppComponent } from './app.component';
 import { HomeComponent } from './+home/home.component';
 import { AboutComponent } from './+about/about.component';
+import {EnfantComponent} from "./+enfant/enfant.component";
 
 export function main() {
 
@@ -36,7 +37,8 @@ export function main() {
     beforeEachProviders(() => {
       let config:RouterConfig = [
         {path: '', component: HomeComponent},
-        {path: 'about', component: AboutComponent}
+        {path: 'about', component: AboutComponent},
+        {path: 'enfant', component: EnfantComponent}
       ];
 
       return [

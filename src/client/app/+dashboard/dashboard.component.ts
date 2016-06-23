@@ -7,9 +7,9 @@ import { REACTIVE_FORM_DIRECTIVES } from '@angular/forms/index';
 @Component({
   moduleId: module.id,
   selector: 'sd-home',
-  templateUrl: 'enfant.component.html',
-  styleUrls: ['enfant.component.css'],
+  templateUrl: 'dashboard.component.html',
+  styleUrls: ['dashboard.component.css'],
   directives: [REACTIVE_FORM_DIRECTIVES]
 
 })
-export class EnfantComponent {}
+export class DashBoardComponent {}

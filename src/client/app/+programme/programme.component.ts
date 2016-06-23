@@ -7,9 +7,9 @@ import { REACTIVE_FORM_DIRECTIVES } from '@angular/forms/index';
 @Component({
   moduleId: module.id,
   selector: 'sd-home',
-  templateUrl: 'enfant.component.html',
-  styleUrls: ['enfant.component.css'],
+  templateUrl: 'programme.component.html',
+  styleUrls: ['programme.component.css'],
   directives: [REACTIVE_FORM_DIRECTIVES]
 
 })
-export class EnfantComponent {}
+export class ProgrammeComponent {}

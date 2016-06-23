@@ -2,21 +2,21 @@ import { provideRouter, RouterConfig } from '@angular/router';
 
 import { HomeRoutes } from './+accueil/index';
 import { EnfantRoutes } from './+enfant/index';
-/*import { FilActuRoutes } from './+filActu/index';
+import { FilActuRoutes } from './+filActu/index';
 import { ProgrammeRoutes } from './+programme/index';
 import { CompteRenduRoutes } from './+compteRendu/index';
 import { DashboardRoutes } from './+dashboard/index';
-import { BilansRoutes } from './+bilans/index';*/
+/*import { BilansRoutes } from './+bilans/index';*/
 
 
 
 const routes: RouterConfig = [
   ...HomeRoutes,
-  ...EnfantRoutes,/*
+  ...EnfantRoutes,
   ...FilActuRoutes,
   ...ProgrammeRoutes,
   ...CompteRenduRoutes,
-  ...DashboardRoutes,
+  ...DashboardRoutes/*
   ...BilansRoutes,*/
 ];
 

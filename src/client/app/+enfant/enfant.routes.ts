@@ -2,7 +2,7 @@ import { EnfantComponent } from './index';
 
 export const EnfantRoutes = [
   {
-    path: '/enfant',
+    path: 'enfant',
     component: EnfantComponent
   }
 ];

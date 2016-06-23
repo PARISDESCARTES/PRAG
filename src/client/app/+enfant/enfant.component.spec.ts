@@ -9,7 +9,7 @@ import {
 } from '@angular/core/testing';
 import { getDOM } from '@angular/platform-browser/src/dom/dom_adapter';
 
-import { PresentationComponent } from './presentation.component';
+import { PresentationComponent } from './enfant.component';
 
 export function main() {
   describe('About component', () => {

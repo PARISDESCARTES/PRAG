@@ -23,6 +23,7 @@ export class TabMenuComponent {
 
   ngOnInit() {
     this.items = [
+      {label: 'Accueil', icon: 'fa-home',  routerLink: ['/']},
       {label: 'Enfant', icon: 'fa-child',  routerLink: ['/enfant']},
       {label: 'Fil d\'actualité', icon: 'fa-user-md',  routerLink: ['/filactu']},
       {label: 'Programme', icon: 'fa-calendar',  routerLink: ['/programme']},

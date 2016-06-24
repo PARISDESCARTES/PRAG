@@ -12,6 +12,7 @@ Déclarer une variable:
 block = {title : 'Présentation association', content : 'Bla bla bla Je suis du contenu  Bla bla bla Je suis du contenu Bla bla bla Je suis du contenu', imageUrl :'../images/enfant.png' };
 
 
+Dans le .html, utiliser la balise <myBlockPresentation>  et set [myBloc] avec la variable :
 
 
   <myBlockPresentation [title]="block.title"  [content]="block.content" [imageUrl]="block.imageUrl" [test]="testDiv" > </myBlockPresentation>

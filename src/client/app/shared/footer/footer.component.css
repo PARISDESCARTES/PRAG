@@ -1,0 +1,46 @@
+:host {
+  border-color: #e1e1e1;
+  border-style: solid;
+  border-width: 0 0 1px;
+  display: block;
+  margin-right:0.5em;
+}
+
+nav a {
+  color: #009999;
+  font-size: 1em;
+  font-weight: bold;
+  font-family : Univers LT Std 55 Roman;
+  line-height: 50px;
+  margin-left: 1em;
+  margin-right: 1em;
+  text-decoration: none;
+  vertical-align: middle;
+  float:right;
+}
+
+.accueil{
+  background-color:#d7edee;
+  padding-top:1.2em;
+  margin-top:2em;
+}
+
+.block{
+  margin-left:1em;
+  display:inline-block;
+  margin:auto;
+  width:10em;
+}
+.menu{
+  margin-left:1em;
+}
+.block img{
+  display:block;
+  margin:auto;
+}
+.block a{
+  display:block;
+  text-align:center;
+  text-decoration: none;
+  color: #009999;
+}

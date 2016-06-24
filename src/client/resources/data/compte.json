@@ -1,0 +1,11 @@
+{
+  "data":[
+    {
+      "id" : "1",
+      "image" : "../images/photo_placeholder.gif",
+      "prenom" : "John",
+      "nom" : "Doe",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra, purus eu fringilla dignissim, dolor enim venenatis nulla, sollicitudin sagittis elit nibh et urna. Curabitur in gravida lorem. Morbi pellentesque neque fringilla faucibus pharetra. Fusce vel aliquam neque. Sed sollicitudin."
+    }
+  ]
+}

@@ -16,8 +16,8 @@ const routes: RouterConfig = [
   ...FilActuRoutes,
   ...ProgrammeRoutes,
   ...CompteRenduRoutes,
-  ...DashboardRoutes
-  ...bilanRoutes,
+  ...DashboardRoutes,
+  ...bilanRoutes
 ];
 
 export const APP_ROUTER_PROVIDERS = [

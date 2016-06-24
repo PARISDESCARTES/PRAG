@@ -24,3 +24,9 @@ h2 {
   border: solid red 1px;
   margin : 20px;
 }
+
+.derniereMaj {
+  position:absolute;
+  bottom:0;
+  right:0;
+}

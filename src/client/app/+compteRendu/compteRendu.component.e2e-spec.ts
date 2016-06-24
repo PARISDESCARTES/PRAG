@@ -1,7 +1,7 @@
-describe('Enfant', () => {
+describe('CompteRendu', () => {
 
   beforeEach( () => {
-    browser.get('/filActu');
+    browser.get('/CompteRendu');
   });
 
   it('should have correct feature heading', () => {

@@ -29,7 +29,8 @@ nav a {
   margin-left:1em;
   display:inline-block;
   margin:auto;
-  width:10em;
+  width:15%;
+  min-width:10em; 
 }
 .menu{
   margin-left:1em;

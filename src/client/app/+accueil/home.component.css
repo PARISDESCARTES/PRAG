@@ -15,4 +15,9 @@ ul {
 .accueil{
 	margin-top : 50px;
 	text-align:justify;
+	text-indent:35px;
+}
+#text::first-letter{
+	color: #009999;
+	font-size:130%;
 }

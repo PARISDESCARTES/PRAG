@@ -12,7 +12,8 @@ nav a {
   font-weight: bold;
   font-family : Univers LT Std 55 Roman;
   line-height: 50px;
-  margin-left: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
   text-decoration: none;
   vertical-align: middle;
   float:right;
@@ -21,3 +22,35 @@ nav a {
 nav a.router-link-active {
   color: #106cc8;
 }
+ul li {
+  display: inline-block;
+  float : right;
+}
+.sousmenu_presentation{
+  display:none;
+  width : 10em;
+  margin:auto;
+  white-space: nowrap;
+  position:absolute;
+  border: 1px solid black;
+
+}
+#presentation:hover ul{
+  display: block;
+  padding-top: 2.5em;
+  background-color:#009999 ;
+
+}
+#presentation:hover a{
+  color:#fdfdfd;
+  z-index:10;
+  position:relative;
+}
+
+ .sousmenu_presentation a {
+  color : #fdfdfd;
+  float:left;
+ }
+  .sousmenu_presentation li {
+  width : 10em;
+ }

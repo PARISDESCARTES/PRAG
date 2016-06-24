@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
  */
 @Component({
   moduleId: module.id,
-  selector: 'sd-about',
+  selector: 'sd-presentation',
   templateUrl: 'presentation.component.html',
   styleUrls: ['presentation.component.css']
 })

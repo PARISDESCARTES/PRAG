@@ -1,11 +1,27 @@
 
-<h2>Contact</h2>
-<ul>
-  <li>Ready to go, statically typed build system using Gulp for working with TypeScript.</li>
-  <li>Production and development builds.</li>
-  <li>Sample unit tests with Jasmine and Karma including code coverage via Istanbul.</li>
-  <li>End-to-end tests with Protractor.</li>
-  <li>Development server with live reload.</li>
-  <li>TypeScript definition management using Typings.</li>
-  <li>Basic Service Worker, which implements "Cache then network strategy".</li>
-</ul>
+<div class="titre">
+	<div class="label">
+<h3 class="first">Objet</h3>
+	</div>
+	<div class="input">
+<input id="in" type="text" size="30" pInputText [(ngModel)]="objet" />
+	</div>
+</div>
+
+
+<br/><br/><br/>
+
+<div class="corps">
+	<div class="label">
+<h3 class="first" style="top:-60px;position:relative">Message</h3>
+	</div>
+	<div class="input">
+<textarea rows="5" cols="90"  pInputTextarea [(ngModel)]="message"></textarea>
+	</div>
+</div>
+
+<br/><br/><br/>
+
+<div class="envoi">
+<a href="mailto:david.1910@live.fr?subject={{objet}}&body={{message}}">Envoyer</a>
+ </div>

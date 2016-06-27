@@ -32,6 +32,7 @@ ul li {
   margin:auto;
   white-space: nowrap;
   position:absolute;
+  z-index:0;
   border: 1px solid black;
 
 }

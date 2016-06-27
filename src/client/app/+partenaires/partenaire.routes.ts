@@ -1,5 +1,5 @@
-import {PartenairesDetail} from "./partenaireDetail.component";
-import {PartenairesComponent} from "./partenaire.component";
+import {PartenaireDetail} from "./partenaireDetail.component";
+import {PartenaireComponent} from "./partenaire.component";
 
 export const PartenairesRoutes = [
   {

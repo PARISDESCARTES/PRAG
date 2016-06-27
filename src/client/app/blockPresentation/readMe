@@ -1,19 +1,22 @@
 
 
-Import BlockComponent et directives  :
+Import et directives  :
 
   import { BlockComponent } from '../blockPresentation/blockPresentation.component';
+  import {BlockService} from "../blockPresentation/blockService";
+  import {HTTP_PROVIDERS} from "@angular/http";
 
   directives: [BlockComponent],
+  providers: [HTTP_PROVIDERS,BlockService]
 
 
-Déclarer une variable:
-
-block = {title : 'Présentation association', content : 'Bla bla bla Je suis du contenu  Bla bla bla Je suis du contenu Bla bla bla Je suis du contenu', imageUrl :'../images/enfant.png' };
+Déclarer une Variables:
+  type = "Presentation";
+  ids = this.blockService.getIdType(this.type);
+  constructor(public nameListService: NameListService,private blockService: BlockService) {}
 
 
 Dans le .html, utiliser la balise <myBlockPresentation>  et set [myBloc] avec la variable :
 
-
-  <myBlockPresentation [title]="block.title"  [content]="block.content" [imageUrl]="block.imageUrl" [test]="testDiv" > </myBlockPresentation>
+  <myBlockPresentation *ngFor ="let id of ids" [id] = "id"> </myBlockPresentation>
 

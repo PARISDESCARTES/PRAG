@@ -27,7 +27,7 @@ export class TabMenuComponent {
       {label: 'Enfant', icon: 'fa-child',  routerLink: ['/enfant']},
       {label: 'Fil d\'actualité', icon: 'fa-user-md',  routerLink: ['/filActu']},
       {label: 'Programme', icon: 'fa-calendar',  routerLink: ['/programme']},
-      {label: 'Compte Rendu', icon: 'fa-support',  routerLink: ['/compteRendu']},
+      {label: 'Ajouter Element', icon: 'fa-support',  routerLink: ['/ajouterElement']},
       {label: 'Dashboard', icon: 'fa-dashboard',  routerLink: ['/dashboard']},
       {label: 'Bilan', icon: 'fa-wpforms',  routerLink: ['/bilan']}
     ];

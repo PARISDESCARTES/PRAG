@@ -1,6 +1,6 @@
 /**
  * This barrel file provides the export for the lazy loaded PresentationComponent.
  */
-export * from './compteRendu.component';
-export * from './compteRendu.routes';
+export * from './ajouterElement.component';
+export * from './ajouterElement.routes';
 

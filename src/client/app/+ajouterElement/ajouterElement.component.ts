@@ -8,13 +8,13 @@ import {Dropdown, SelectItem} from 'primeng/primeng';
 @Component({
   moduleId: module.id,
   selector: 'sd-home',
-  templateUrl: 'compteRendu.component.html',
-  styleUrls: ['compteRendu.component.css'],
+  templateUrl: 'ajouterElement.component.html',
+  styleUrls: ['ajouterElement.component.css'],
   directives: [REACTIVE_FORM_DIRECTIVES, Dropdown]
 
 })
 
-export class CompteRenduComponent {
+export class AjouterElementComponent {
 categorie: SelectItem[];
 
     selectedCategorie: string;

@@ -10,3 +10,63 @@ h2 {
   margin-bottom: 0;
   margin-top: 0.83em;
 }
+
+#flexbox{
+	display : flex;
+	flex-wrap: wrap;
+	width : 100%;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#don, #invitation{
+	margin : 1em;
+	width : auto;
+}
+
+#don{
+	max-width : 66%;
+	margin-bottom : 2em;
+}
+
+#don>table, #invitation>table{
+	border-collapse : collapse;
+	border : 1px solid black;
+}
+
+#don>table tr th, #invitation>table tr th{
+	background : lightgrey;
+}
+
+#don p::first-letter, #invitation p::first-letter{
+	color : red;
+	font-size : 1.5em;
+}
+
+#don p, #invitation p, #don strong, #invitation strong, #invitation form, #don a{
+	text-indent : 1em;
+	margin : 1em;
+}
+
+#don strong, #invitation strong{
+	font-size : 1.5em;
+	font-style : bold;
+}
+
+#don th, #invitation th{
+	font-size : 2em;
+	border : 1px solid black;
+	padding : 0.25em;
+}
+
+.social{
+	width : 4em;
+}
+
+.social:first-child{
+	margin-left: 1em;
+}
+
+.social:last-child{
+	margin-right: 1em;
+}

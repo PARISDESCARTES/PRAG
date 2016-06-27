@@ -1,0 +1,43 @@
+<h1>Bonjour, {{compte}}</h1>
+
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet lacus tellus. Aliquam ullamcorper, magna id vulputate pulvinar, ipsum metus mattis justo, nec eleifend nisi nulla ac leo. Sed fermentum efficitur ex. Suspendisse ac suscipit libero. Praesent consectetur bibendum nibh a bibendum. Pellentesque maximus vestibulum lorem in feugiat. Vivamus sollicitudin neque lorem, vel auctor magna dictum vitae.
+<p>
+
+<h2>Enfants</h2>
+
+<p-dataList [value]="enfants" [paginator]="true" [rows]="5">
+  <header>
+    Vos enfants
+  </header>
+  <template let-enfant>
+    <li style="border-bottom:1px solid #D5D5D5;">
+      <div class="ui-grid ui-grid-responsive ui-fluid" style="font-size:16px;padding:20px">
+        <div class="ui-grid-row">
+          <div class="ui-grid-col-3" style="text-align:center">
+            <a href="enfant/{{enfant.id}}">
+            <!--<a [routerLink]="['/enfant', {id: enfant.id}]">-->
+            <i class="fa fa-search" (click)="selectEnfant(enfant)"                                                                                          style="cursor:pointer;float:left;margin-top:40px"></i><img
+            src="{{enfant.image}}" width="90" height="130"></a></div>
+          <div class="ui-grid-col-9">
+            <div class="ui-grid ui-grid-responsive ui-fluid">
+              <div class="ui-grid-row">
+                <h2>
+                  {{enfant.prenom + ' ' + enfant.nom}}
+                </h2>
+              </div>
+              <div class="ui-grid-row">
+                <div class="ui-grid-col-3">Description:</div>
+                <div class="ui-grid-col-4">{{enfant.description}}</div>
+              </div>
+              <div class="ui-grid-row">
+                <div class="ui-grid-col-3">Date de dernière mise à jour:</div>
+                <div class="ui-grid-col-4">{{enfant.derniereMaj}}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </template>
+</p-dataList>

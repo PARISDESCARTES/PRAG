@@ -1,0 +1,32 @@
+:host {
+  display: block;
+  padding: 0 16px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 0.005em;
+  margin-bottom: 10px;
+  margin-top: 0.83em;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.005em;
+  margin-bottom: 10px;
+  margin-top: 0.83em;
+}
+
+.enfant {
+  background-color:green;
+  border: solid red 1px;
+  margin : 20px;
+}
+
+.derniereMaj {
+  position:absolute;
+  bottom:0;
+  right:0;
+}

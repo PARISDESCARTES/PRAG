@@ -6,7 +6,7 @@ import { ActionsRoutes } from './+actions/index';
 import { CauseRoutes } from './+cause/index';
 import { ContactRoutes } from './+contact/index';
 import { DonRoutes } from './+don/index';
-import { EnfantsRoutes } from './+enfants/index';
+import { EnfantRoutes } from './+enfant/index';
 import { MembresRoutes } from './+membres/index';
 import { PartenairesRoutes } from './+partenaires/index';
 
@@ -19,7 +19,7 @@ const routes: RouterConfig = [
   ...CauseRoutes,
   ...DonRoutes,
   ...ActionsRoutes,
-  ...EnfantsRoutes,
+  ...EnfantRoutes,
 
 ];
 

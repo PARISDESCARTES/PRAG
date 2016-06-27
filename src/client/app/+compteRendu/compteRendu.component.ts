@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { REACTIVE_FORM_DIRECTIVES } from '@angular/forms/index';
-import {Dropdown} from 'primeng/primeng';
+import {Dropdown, SelectItem} from 'primeng/primeng';
 
 /**
  * This class represents the lazy loaded EnfantComponent.

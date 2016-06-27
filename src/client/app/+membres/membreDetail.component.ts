@@ -6,12 +6,12 @@ import {ROUTER_DIRECTIVES} from "@angular/router";
 
 @Component({
   moduleId: module.id,
-  selector: 'sd-enfant',
-  templateUrl: 'enfant.detail.component.html',
-  styleUrls: ['enfant.component.css'],
+  selector: 'sd-membre',
+  templateUrl: 'membre.detail.component.html',
+  styleUrls: ['membre.component.css'],
   directives: [REACTIVE_FORM_DIRECTIVES, DataList, ROUTER_DIRECTIVES],
 })
 
-export class EnfantDetail {
+export class MembreDetail {
 
 }

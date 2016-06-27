@@ -1,6 +1,6 @@
 /**
- * This barrel file provides the export for the lazy loaded MembresComponent.
+ * This barrel file provides the export for the lazy loaded PresentationComponent.
  */
-export * from './membres.component';
-export * from './membres.routes';
+export * from './membre.component';
+export * from './membre.routes';
 

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { REACTIVE_FORM_DIRECTIVES } from '@angular/forms/index';
 import {DataList} from 'primeng/primeng';
-import {EnfantService} from "./enfantService";
+import {MembreService} from "./membreService";
 import {BlockListe} from "../blockListe/blockListe";
 import {HTTP_PROVIDERS} from "@angular/http";
 import {ROUTER_DIRECTIVES} from "@angular/router";
@@ -12,31 +12,31 @@ import {ROUTER_DIRECTIVES} from "@angular/router";
  */
 @Component({
   moduleId: module.id,
-  selector: 'sd-enfant',
-  templateUrl: 'enfant.component.html',
-  styleUrls: ['enfant.component.css'],
+  selector: 'sd-membre',
+  templateUrl: 'membre.component.html',
+  styleUrls: ['membre.component.css'],
   directives: [REACTIVE_FORM_DIRECTIVES, DataList, ROUTER_DIRECTIVES],
-  providers: [HTTP_PROVIDERS,EnfantService]
+  providers: [HTTP_PROVIDERS,MembreService]
 })
-export class EnfantComponent {
-  enfants: BlockListe[];
+export class MembreComponent {
+  membres: BlockListe[];
 
-  selectedEnfant: BlockListe;
+  selectedMembre: BlockListe;
 
   displayDialog: boolean;
 
-  constructor(private enfantService: EnfantService) { }
+  constructor(private membreService: MembreService) { }
 
   ngOnInit() {
-    this.enfantService.getEnfantsData().then(enfants => this.enfants = enfants);
+    this.membreService.getMembresData().then(membres => this.membres = membres);
   }
 
-  selectEnfant(enfant: BlockListe) {
-    this.selectedEnfant = enfant;
+  selectMembre(membre: BlockListe) {
+    this.selectedMembre = membre;
     this.displayDialog = true;
   }
 
   onDialogHide() {
-    this.selectedEnfant = null;
+    this.selectedMembre = null;
   }
 }

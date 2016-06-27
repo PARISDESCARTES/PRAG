@@ -3,12 +3,12 @@ import {Injectable} from "@angular/core";
 import {Http} from "@angular/http";
 
 @Injectable()
-export class EnfantService {
+export class PartenaireService {
 
   constructor(private http: Http) {}
 
-  getEnfantsData() {
-    return this.http.get('/resources/data/enfants-data.json')
+  getPartenairesData() {
+    return this.http.get('/resources/data/partenaires-data.json')
       .toPromise()
       .then(res => <BlockListe[]> res.json().data)
       .then(data => { return data; });

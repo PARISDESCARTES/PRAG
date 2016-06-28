@@ -19,10 +19,18 @@ const routes: RouterConfig = [
   ...CauseRoutes,
   ...DonRoutes,
   ...ActionsRoutes,
-  ...EnfantRoutes,
+  ...EnfantRoutes
 
+];
+
+export const AuthRoutes = [
+  { path: '/', redirectTo: ['/Home'] },
+  { path: '/home', component: Home, as: 'Accueil' },
+  { path: '/login', component: Login, as: 'Login' },
+  { path: '/signup', component: Signup, as: 'Signup' }
 ];
 
 export const APP_ROUTER_PROVIDERS = [
-  provideRouter(routes),
+  provideRouter(routes, AuthRoutes),
 ];
+

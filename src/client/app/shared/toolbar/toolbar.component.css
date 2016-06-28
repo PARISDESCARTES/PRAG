@@ -1,14 +1,14 @@
 :host {
   background-color: #fdfdfd;
   display: inline;
-  height: 48px;
   margin-right:1em;
 }
 
 .toolbar{
   display: inline;
   float : right;
-  font : 1.5em Myriad;
+  font : Univers LT Std 55 Roman;
+  font-size:1.2em;
   font-style : italic;
   color : #ff6699;
   margin-right:1em;

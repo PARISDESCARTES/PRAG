@@ -29,7 +29,7 @@ export class TabMenuComponent {
       {label: 'Dashboard', icon: 'fa-dashboard',  routerLink: ['/dashboard']},
       {label: 'Bilan', icon: 'fa-wpforms',  routerLink: ['/bilan']},
       {label: 'Enfant', icon: 'fa-child',  routerLink: ['/ajout/enfant']},
-      {label: 'Ajouter élément', icon: 'fa-plus',  routerLink: ['/compteRendu']},
+      {label: 'Ajouter élément', icon: 'fa-plus',  routerLink: ['/ajouterElement']},
     ];
 
     this.activeItem = this.items[0];

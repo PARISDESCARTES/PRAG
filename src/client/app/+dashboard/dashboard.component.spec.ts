@@ -9,7 +9,8 @@ import {
 } from '@angular/core/testing';
 import { getDOM } from '@angular/platform-browser/src/dom/dom_adapter';
 
-import { FilActuComponent } from './filActu.component';
+import {FilActuComponent} from "../+filActu/filActu.component";
+
 
 export function main() {
   describe('About component', () => {
@@ -33,7 +34,7 @@ export function main() {
 
 @Component({
   selector: 'test-cmp',
-  directives: [PresentationComponent],
+  directives: [FilActuComponent],
   template: '<sd-about></sd-about>'
 })
 class TestComponent {}

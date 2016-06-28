@@ -11,6 +11,7 @@ export class EnfantService {
     return this.http.get('/resources/data/enfants-data.json')
       .toPromise()
       .then(res => <Enfant[]> res.json().data)
-      .then(data => { return data; });
+      .then(data=> { return data; });
   }
+
 }

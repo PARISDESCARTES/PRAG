@@ -24,7 +24,7 @@ export class ProjectConfig extends SeedConfig {
     super();
     // this.APP_TITLE = 'Put name of your app here';
     let additional_deps: InjectableDependency[] = [
-      {src: 'primeui/themes/bootstrap/theme.css', inject: true},
+      {src: 'primeui/themes/omega/theme.css', inject: true},
       {src: 'primeui/primeui-ng-all.min.css', inject: true},
       {src: 'primeui/primeui-ng-all.min.js', inject: true},
       {src: 'font-awesome/css/font-awesome.min.css', inject: true}

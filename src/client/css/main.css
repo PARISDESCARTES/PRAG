@@ -67,6 +67,26 @@ button:hover {
   background-color: #28739e;
 }
 
+.floatRight{float:right;}
+
+.avatar {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.data-label {
+  font-size:18px;
+}
+
+.panel-enfant {
+  height: 350px;
+}
+
+.wrap {
+  text-align: justify;
+  text-indent: 2em;
+}
+
 @font-face {
   font-family: 'FontAwesome';
   src: url("../fonts/fontawesome-webfont.eot?v=4.5.0");

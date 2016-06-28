@@ -5,4 +5,11 @@ export interface Enfant {
   nom;
   description;
   derniereMaj;
+  dateDeNaissance;
+  sexe;
+  adresse;
+  codePostal;
+  ville;
+  responsable1;
+  responsable2;
 }

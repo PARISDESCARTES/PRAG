@@ -1,2 +1,41 @@
-<h1>Page de l'enfant {{id}}</h1>
-<h2>{{enfantDetails.id}}</h2>
+<br/>
+<p-panel styleClass="panel-enfant">
+  <header>
+    <div class="ui-helper-clearfix">
+      <span class="ui-panel-title" style="font-size:24px">{{enfantDetails.nom + ' ' + enfantDetails.prenom}}</span>
+
+      <p-splitButton label="Modifier" icon="fa-update" (onClick)="update()" styleClass="floatRight">
+        <p-splitButtonItem icon="fa-folder-open-o" label="Dossier personnel"
+                           (onClick)="dossierPersonnel()"></p-splitButtonItem>
+      </p-splitButton>
+    </div>
+  </header>
+  <div class="avatar">
+    <img src="{{enfantDetails.image}}"/>
+  </div>
+  <div class="wrap">
+    <div class="ui-g">
+      <div class="ui-g-4 data-label"><b>Date de naissance :</b> {{enfantDetails.dateDeNaissance}}</div>
+      <div class="ui-g-5 data-label"><b>Sexe :</b> {{enfantDetails.sexe}}</div>
+    </div>
+    <div class="ui-g">
+      <div class="ui-g-4 data-label"><b>Adresse :</b> {{enfantDetails.adresse}}</div>
+    </div>
+    <div class="ui-g">
+      <div class="ui-g-4 data-label"><b>Code postal :</b> {{enfantDetails.codePostal}}</div>
+      <div class="ui-g-5 data-label"><b>Ville :</b> {{enfantDetails.ville}}</div>
+    </div>
+    <div class="ui-g">
+      <div class="ui-g-4 data-label"><b>Responsable légal 1 :</b> {{enfantDetails.responsable1}}</div>
+      <div class="ui-g-5 data-label"><b>Responsable légal 2 :</b> {{enfantDetails.responsable2}}</div>
+    </div>
+  </div>
+  <div>
+    <h2> Thérapies : </h2>
+
+  </div>
+  <div>
+    <h2> Diagnostic : </h2>
+
+  </div>
+</p-panel>

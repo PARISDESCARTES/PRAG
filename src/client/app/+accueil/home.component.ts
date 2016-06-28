@@ -32,10 +32,7 @@ export class HomeComponent {
    *
    * @param {NameListService} nameListService - The injected NameListService.
    */
-  constructor(public nameListService: NameListService,private blockService: BlockService) {
-
-
-  }
+  constructor(public nameListService: NameListService,private blockService: BlockService) {}
 
   /**
    * Calls the add method of the NameListService with the current newName value of the form.

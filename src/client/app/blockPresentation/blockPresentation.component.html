@@ -1,16 +1,44 @@
-
-<div class="accueil" >
+<!--
+<div *ngIf = "block.style == 'default'" class="accueil">
   <div class="ui-g">
     <div class="ui-g-8 ui-g-nopad">
       <div class="ui-g-12 ui-md-6 ui-lg-3"></div>
       <div class="ui-g-12 ui-md-6 ui-lg-9"><h2>{{ block.title }}</h2></div>
-      <div class="ui-g-12 ui-md-6 ui-lg-2"></div>
-      <div class="ui-g-12 ui-md-6 ui-lg-10">{{ block.content }}</div>
+      <div class="ui-g-12 ui-md-6 ui-lg-1"></div>
+      <div id="text" class="ui-g-12 ui-md-6 ui-lg-10">{{ block.content }}</div>
+      <div class="ui-g-12 ui-md-6 ui-lg-1"></div>
     </div>
+    <div class="ui-g-12 ui-md-3 ui-lg-3"><img src="{{block.imageUrl}}" style="width:100%;max-width:15em;min-width:10em"></div>
     <div class="ui-g-12 ui-md-6 ui-lg-1"></div>
-    <div class="ui-g-12 ui-md-3 ui-lg-3"><img src={{block.imageUrl}} style="width:100%"></div>
   </div>
+</div> -->
 
+<div *ngIf = "block.style == 'default'" class="accueil">
+    <div class="ui-g">
+      <div class="ui-g-8 ui-g-nopad">
+        <div class="ui-g-12 ui-md-6 ui-lg-3"></div>
+        <div class="ui-g-12 ui-md-6 ui-lg-9"><h2>{{ block.title }}</h2></div>
+        <div class="ui-g-12 ui-md-6 ui-lg-1"></div>
+        <div id="text" class="ui-g-12 ui-md-6 ui-lg-10">{{ block.content }}</div>
+        <div class="ui-g-12 ui-md-6 ui-lg-1"></div>
+      </div>
+      <div class="ui-g-12 ui-md-3 ui-lg-3"><img src="{{block.imageUrl}}" style="width:100%;max-width:15em;min-width:10em"></div>
+    <div class="ui-g-12 ui-md-6 ui-lg-1"></div>
+</div>
+
+
+<div *ngIf = "block.style == 'HalfVertical'" class="accueil">
+
+</div>
+<div *ngIf = "block.style == 'HalfHorizontal'" class="accueil">
 
 </div>
 
+<div *ngIf = "block.style == 'Vertical'" class="accueil">
+
+</div>
+
+<div *ngIf = "block.style == 'Horizontal'" class="accueil">
+
+</div>
+<!--*ngIf = "block.style = 'default'" -->

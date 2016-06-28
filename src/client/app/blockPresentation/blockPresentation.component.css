@@ -1,0 +1,36 @@
+:host {
+  display: block;
+}
+
+input {
+  width: 250px;
+}
+img {
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 0 0 8px;
+}
+.accueil{
+	margin-top : 50px;
+	text-align:justify;
+	text-indent:35px;
+}
+#text::first-letter{
+	color: #009999;
+	font-size:130%;
+}
+
+/*
+@media (min-width: 768px)
+body {
+    font-size: 1.125rem;
+    line-height: 1.55556;
+}
+@media (min-width: 600px)
+body {
+    font-size: 1rem;
+    line-height: 1.625;
+}
+*/

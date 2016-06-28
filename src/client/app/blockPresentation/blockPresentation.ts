@@ -4,6 +4,7 @@ title;
 content;
 imageUrl;
 type;
+style;
 
 constructor(){}
 }

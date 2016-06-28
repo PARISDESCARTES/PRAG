@@ -1,8 +1,14 @@
 <img src="../images/banniere.png" style="width:100%">
 
-<myBlockPresentation *ngFor ="let id of ids" [id] = "id"> </myBlockPresentation>
+<div id="innerBody">
+  <div id = "content">
 
+    <myBlockPresentation *ngFor ="let id of ids" [id] = "id"> </myBlockPresentation>
 
+  </div>
+</div>
+
+<!--
 <div class="accueil">
   <div class="ui-g">
     <div class="ui-g-8 ui-g-nopad">
@@ -17,7 +23,7 @@
   </div>
 </div>
 
-<!-- <div class="accueil">
+ <div class="accueil">
   <div class="ui-g">
     <div class="ui-g-12 ui-md-6 ui-lg-1"></div>
     <div class="ui-g-12 ui-md-3 ui-lg-3"><img src="../images/enfant.png" style="width:100%"></div>

@@ -1,3 +1,8 @@
+#global{
+margin-left: 15px;
+  /*background-color: red;*/
+  width: 100%;
+}
 :host {
   display: block;
   padding: 0 16px;
@@ -10,25 +15,79 @@ h2 {
   margin-bottom: 0;
   margin-top: 0.83em;
 }
+label{
+  font-size: 20px;
+  font-weight: 500;
+}
 #type_div{
-  text-align: center;
+  margin-left: 90px;
   margin-bottom: 50px;
+  /*background-color: grey;*/
 }
-.lst_deroulante{
-  width: 1080px;
-}
+
+/*div milieu*/
 #div_mil{
-  margin-top: 50px;
-  margin-left: 30px;
+  display: block;
+  margin-left:10%;
+  margin-bottom: 4%;
+ /*background-color: grey;*/
+}
+
+.datecss{
+  position:absolute;
+  height: 30px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.titrecss{
+
+  width: 350px;
+  height: 30px;
+  margin-right: 20%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/*----------*/
+
+#div_desc{
+margin-bottom: 3%;
+  margin-left: 20%;
+  /*background-color: grey;*/
+}
+
+#div_thexo{
+  display: block;
+  margin-left: 15%;
+  margin-bottom: 6%;
+/*background-color: grey;*/
+}
+
+.descss{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.exocss{
+  position:absolute;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 
 }
-.TitreCssClass{
-  margin-left: 15px;
-  margin-right: 100px;
-  width: 350px;
-  height: 30px;
+.therapiecss{
+  margin-right: 10%;
 }
-.datecss{
-  height: 30px;
-  width: 350px;
-}
+
+
+
+
+#div_btnsubmit{
+  margin-left: 45%;
+  /*background-color: grey;*/
+  }

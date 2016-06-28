@@ -4,7 +4,7 @@ import { HomeRoutes } from './+accueil/index';
 import { EnfantRoutes } from './+enfant/index';
 import { FilActuRoutes } from './+filActu/index';
 import { ProgrammeRoutes } from './+programme/index';
-import { CompteRenduRoutes } from './+compteRendu/index';
+import { AjouterElementRoutes } from './+ajouterElement/index';
 import { DashboardRoutes } from './+dashboard/index';
 import { bilanRoutes } from './+bilan/index';
 
@@ -15,7 +15,7 @@ const routes: RouterConfig = [
   ...EnfantRoutes,
   ...FilActuRoutes,
   ...ProgrammeRoutes,
-  ...CompteRenduRoutes,
+  ...AjouterElementRoutes,
   ...DashboardRoutes,
   ...bilanRoutes
 ];

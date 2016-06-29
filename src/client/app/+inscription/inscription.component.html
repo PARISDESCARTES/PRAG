@@ -1,3 +1,70 @@
-<form id="flexbox">
-	<strong>En construction ...</strong>	 
+<form id='flexbox'>
+
+<fieldset id='choix'>
+	<legend>Type de compte</legend>
+	
+	<input id="type1" name="firstname" type="radio" size="80" pInputRadio [(ngModel)]="type" checked/>
+	<label for="type1" >Mécène</label>
+	
+	<input id="type2" name="firstname" type="radio" size="80" pInputRadio [(ngModel)]="type" />
+	<label for="type2" >Thérapeute</label>
+	
+	<input id="type3" name="firstname" type="radio" size="80" pInputRadio [(ngModel)]="type" />
+	<label for="type3" >Membre</label>
+	
+</fieldset>
+
+<fieldset>
+	<legend>Compte</legend>
+	
+	<label for="login" >Identifiant du compte</label>
+	<input id="login" name="login" type="text" size="80" pInputText [(ngModel)]="login" required/>
+	
+	<label for="pwd" >Mot de passe</label>
+	<input id="pwd" name="pwd" type="password"  size="80" pInputText [(ngModel)]="pwd" required/>
+	
+	<label for="pwd2" >Confirmez votre mot de passe</label>
+	<input id="pwd2" name="pwd2" type="password" size="80" pInputText [(ngModel)]="pwd2" required/>
+</fieldset>
+
+<fieldset>
+	<legend>Identité</legend>
+	
+	<label for="firstname" >Prénom</label>
+	<input id="firstname" name="firstname" type="text" size="80" pInputText [(ngModel)]="firstname" required/>
+	
+	<label for="lastname" >Nom</label>
+	<input id="lastname" name="lastname" type="text" size="80" pInputText [(ngModel)]="lastname" required/>
+	
+	<label for="tel" >Numéro de téléphone</label>
+	<input id="tel" name="tel" type="tel" size="80" pInputText [(ngModel)]="tel" />
+	
+	<label for="email" >Adresse mél</label>
+	<input id="email" name="email" type="email" size="80" pInputText [(ngModel)]="email" required/>
+	
+	<label for="email2" >Confirmez votre adresse mél</label>
+	<input id="email2" name="firstname" type="email" size="80" pInputText [(ngModel)]="email2" required/>
+</fieldset>
+
+<fieldset>
+	<legend>Adresse</legend>
+	
+	<label for="address" >Numéro, type et libellé de voie</label>
+	<input id="address" name="address" type="text" size="80" pInputText [(ngModel)]="address" />
+
+	<label for="cp" >Code postal</label>
+	<input id="cp" name="cp" type="text" size="80" pInputText [(ngModel)]="cp" />
+	
+	<label for="city" >Ville</label>
+	<input id="city" name="city" type="text" size="80" pInputText [(ngModel)]="city" />
+</fieldset>
+
+
+<fieldset>
+	<legend>Validation</legend>
+	<input type="submit" size="80" pInputSubmit value="Créer un compte" />
+	<a href='..' ><input type="button" size="80" pInputButton value="Annuler" /></a>
+</fieldset>
+
+
 </form>

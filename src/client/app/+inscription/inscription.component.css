@@ -5,5 +5,50 @@
 
 #flexbox{
 	display : flex;
-	justify-content : space-around;
+    flex-wrap: wrap;
+	flex-direction: column;
+	justify-content : center;
+	align-items: center;
+}
+
+#flexbox>fieldset:not(#choix){
+	display : flex;
+	flex-direction: column;
+	justify-content : center;
+	align-items: center;
+	text-align : left;
+	margin : 1em;
+}
+
+#choix{
+}
+
+input:not([type=radio]){
+	margin-bottom : 0.5em;
+}
+
+input[type=radio]{
+	vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+}
+
+input[type=button]:hover, input[type=submit]:hover{
+	opacity : 0.5;
+}
+
+input[type=button], input[type=submit]{
+	width : 100%;
+}
+
+#choix, #validation{
+	text-align:center;
+}
+
+input[type=text]:valid, input[type=tel]:valid, input[type=email]:valid, input[type=password]:valid{
+   box-shadow: 0 0 2px 1px green;
+}
+
+input[type=text]:invalid, input[type=tel]:invalid, input[type=email]:invalid, input[type=password]:invalid{
+   box-shadow: 0 0 2px 1px red;
 }

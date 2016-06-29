@@ -1,51 +1,45 @@
-<!--  commentary      !-->
-<div id="global">
-  <p>
-  <h1>
-    Ajouter un élément de suivi
-  </h1>
-  <p>
+<br/>
+<p-panel styleclass="panelG">
+  <header>
+    <div class="ui-helper-clearfix">
+      <span class="ui-panel-title" style="font-size:24px">Ajouter un élément de suivi </span>
+    </div>
+  </header>
+  <div class="ui-g">
+    <div class="ui-xl-4 ui-lg-4 ui-md-4">Type d'élément:
+      <select id="typ" name="country">
+      <option value="firstval">Sélectionnez votre type d'élement</option>
+      <option value="Anamnèse">Anamnèse</option>
+      <option value="Programme">Programme</option>
+        <option value="Préconisation">Préconisation</option>
+        <option value="Bilan">Bilan</option>
+        <option value="Compte-rendu">Compte-rendu</option>
+        <option value="évaluation">évaluation</option>
+    </select>
+      <!--<p-dropdown [options]="categorie" ngControl="selectedCat" id="lst_label" class="lstde"></p-dropdown>!--></div>
+      <div class="ui-xl-4 ui-lg-4 ui-md-4">Titre : <input type="text" id="titre_label" class="titrecss" pInputText/></div>
+      <div class="ui-xl-4 ui-lg-4 ui-md-4">Date : <input type="text" id="date_label" class="datecss" pInputText/></div>
+    </div>
 
-  <div id="type_div">
-    <label for="lst_label" >Type d'élements :    </label>
-    <p-dropdown [options]="categorie" ngControl="selectedCategorie" id="lst_label" class="lstde"></p-dropdown>
-  </div>
-
-  <div id="div_mil">
-
-
-    <label for="titre_label" >Titre : </label>
-    <input type="text" id = "titre_label" class="titrecss" pInputText />
-
-
-    <label for="date_label">Date : </label>
-    <input type="text" id = "date_label" class="datecss" pInputText />
-
-
-  </div>
-
-
-  <div id="div_desc">
-    <label for="desc_label">Description : </label>
-    <textarea id="desc_label" class="descss" rows="10" cols="40" pInputTextarea></textarea>
-
-  </div>
-
-  <div id="div_thexo">
-
-
-    <label for="lst_th" >Thérapie :    </label>
-    <p-dropdown [options]="cat_therapie" ngControl="selectedTherapie" id="lst_th"class="therapiecss"></p-dropdown>
-
-
-    <label for="exo_label">Exercices : </label>
-    <textarea id="exo_label" class="exocss" rows="5" cols="30" pInputTextarea></textarea>
-  </div>
-
-
-  <div id="div_btnsubmit">
-    <button pButton type="button" (click)="onclick()"  class="btn" label="Soumettre"></button>
-  </div>
-
-</div>
-
+    <div class="ui-g">
+      <div class="ui-xl-6 ui-lg-6 ui-md-6">Description : <textarea id="desc_label" class="descss" rows="10" cols="30"
+                                                                   pInputTextarea></textarea></div>
+      <div class="ui-xl-6 ui-lg-6 ui-md-6">Exercices : <textarea id="exo_label" class="exocss" rows="10" cols="30"
+                                                                 pInputTextarea></textarea></div>
+    </div>
+    <br/><br/><br/>
+    <div class="ui-g">
+      <div class="ui-xl-12 ui-lg-12 ui-md-12">Thérapie :
+       <select id="categorieTH" name="therapie">
+         <option value="secondval">Sélectionnez votre thérapie</option>
+        <option value="Vojita">Vojita</option>
+        <option value="canada">Essentis</option>
+        <option value="Myotenofasciotomie">Myotenofasciotomie</option>
+         <option value="Biofeedback">Biofeedback</option>
+         <option value="Neurofeedback">Neurofeedback</option>
+         <option value="Fasciatherapie">Fasciatherapie</option>
+      </select>
+        </div>
+    </div>
+  <input type="submit" value="Soumettre">
+</p-panel>

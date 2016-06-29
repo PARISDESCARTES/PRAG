@@ -1,18 +1,21 @@
 <!--  commentary      !-->
 <p>
-<h2>Ajouter un élément de suivi</h2>
+<h2>
+  Ajouter un élément de suivi
+  </h2>
 <p>
+
 <div id="type_div">
-	<label for="lst_label">Type d'élements : </label>
-	<p-dropdown [options]="categorie" ngControl="selectedCategorie"
-		id="lst_label" class="lst_deroulante"> d</p-dropdown>
+  <label for="lst_label" >Type d'élements :    </label>
+  <p-dropdown [options]="categorie" ngControl="selectedCategorie" id="lst_label"class="lst_deroulante"> d</p-dropdown>
 </div>
 
 <div id="div_mil">
-	<label for="titre_label">Titre : </label> <input type="text"
-		id="titre_label" class="TitreCssClass" pInputText /> <label
-		for="date_label">Date : </label>
-	<!--<p-calendar ngControl="date" id="date_label" class="datecss"></p-calendar>-->
+  <label for="titre_label" >Titre : </label>
+  <input type="text" id = "titre_label" class ="TitreCssClass" pInputText />
+  <label for="date_label">Date : </label>
+  <input type="text" id = "date_label" class ="datecss" pInputText />
+  <!--<p-calendar ngControl="date" id="date_label" class="datecss"></p-calendar>-->
 
 </div>
 

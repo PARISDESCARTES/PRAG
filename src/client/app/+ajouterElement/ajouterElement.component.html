@@ -15,10 +15,10 @@
         <option value="Bilan">Bilan</option>
         <option value="Compte-rendu">Compte-rendu</option>
         <option value="évaluation">évaluation</option>
-    </select>
-      <!--<p-dropdown [options]="categorie" ngControl="selectedCat" id="lst_label" class="lstde"></p-dropdown>!--></div>
+    </select></div>
       <div class="ui-xl-4 ui-lg-4 ui-md-4">Titre : <input type="text" id="titre_label" class="titrecss" pInputText/></div>
-      <div class="ui-xl-4 ui-lg-4 ui-md-4">Date : <input type="text" id="date_label" class="datecss" pInputText/></div>
+      <div class="ui-xl-4 ui-lg-4 ui-md-4">Date :   <p-calendar styleclass="cal" ngControl="date" [locale]="fr"></p-calendar>
+        <!--<input type="text" id="date_label" class="datecss" pInputText/>!--> </div>
     </div>
 
     <div class="ui-g">
@@ -27,7 +27,7 @@
       <div class="ui-xl-6 ui-lg-6 ui-md-6">Exercices : <textarea id="exo_label" class="exocss" rows="10" cols="30"
                                                                  pInputTextarea></textarea></div>
     </div>
-    <br/><br/><br/>
+
     <div class="ui-g">
       <div class="ui-xl-12 ui-lg-12 ui-md-12">Thérapie :
        <select id="categorieTH" name="therapie">

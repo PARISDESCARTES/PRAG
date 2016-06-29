@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { REACTIVE_FORM_DIRECTIVES } from '@angular/forms/index';
 import {Button, InputText, Panel} from 'primeng/primeng';
-import {HTTP_PROVIDERS} from "@angular/http";
+
 
 import { NameListService } from '../shared/index';
 
+import {HTTP_PROVIDERS} from "@angular/http";
 import { BlockComponent } from '../blockPresentation/blockPresentation.component';
 import {BlockService} from "../blockPresentation/blockService";
 /**

@@ -9,7 +9,7 @@ import {HTTP_PROVIDERS} from "@angular/http";
   selector: 'myBlockPresentation',
   templateUrl: 'blockPresentation.component.html',
   inputs : ['title','content','imageUrl','id'],
-  providers: [HTTP_PROVIDERS,BlockService]
+  providers: [HTTP_PROVIDERS,BlockService],
   styleUrls: ['blockPresentation.component.css'],
   host:     {'[class.Vertical]':'Vertical','[class.Horizontal]':'Horizontal','[class.HalfHorizontal]':'HalfHorizontal','[class.HalfVertical]':'HalfVertical'}
 })
@@ -48,9 +48,5 @@ export class BlockComponent {
         }
       })
   }
-
-  ngOnInit() {
-  }
 }
 
-}

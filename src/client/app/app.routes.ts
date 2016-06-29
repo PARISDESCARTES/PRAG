@@ -23,8 +23,14 @@ const routes: RouterConfig = [
 
 ];
 
+export const APP_ROUTER_PROVIDERS = [
+  provideRouter(routes),
+];
+
+/*
+
 export const AuthRoutes = [
-  { path: '/', redirectTo: ['/Home'] },
+  { path: '/', redirectTo: ['/home'] },
   { path: '/home', component: Home, as: 'Accueil' },
   { path: '/login', component: Login, as: 'Login' },
   { path: '/signup', component: Signup, as: 'Signup' }
@@ -34,3 +40,4 @@ export const APP_ROUTER_PROVIDERS = [
   provideRouter(routes, AuthRoutes),
 ];
 
+*/

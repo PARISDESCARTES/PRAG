@@ -10,8 +10,15 @@ import {HTTP_PROVIDERS} from "@angular/http";
   templateUrl: 'blockPresentation.component.html',
   inputs : ['title','content','imageUrl','id'],
   providers: [HTTP_PROVIDERS,BlockService]
+  styleUrls: ['blockPresentation.component.css'],
+  host:     {'[class.Vertical]':'Vertical','[class.Horizontal]':'Horizontal','[class.HalfHorizontal]':'HalfHorizontal','[class.HalfVertical]':'HalfVertical'}
 })
 export class BlockComponent {
+
+  Vertical : bool = false;
+  Horizontal : bool = false;
+  HalfHorizontal : bool = false;
+  HalfVertical : bool = false;
 
   id = [];
   block;
@@ -23,14 +30,25 @@ export class BlockComponent {
           blocks.forEach((block) => {
               if(block.id == this.id){
                 this.block = block;
+
+                  if(this.block.style == "Vertical"){
+                    this.Vertical= true;
+                  }
+                  if(this.block.style == "Horizontal"){
+                    this.Horizontal= true;
+                  }
+                  if(this.block.style == "HalfHorizontal"){
+                    this.HalfHorizontal= true;
+                  }
+                  if(this.block.style == "HalfVertical"){
+                    this.HalfVertical= true;
+                  }
               }
           });
         }
-    })
-
-
+      })
   }
 
   ngOnInit() {
-
+  }
 }

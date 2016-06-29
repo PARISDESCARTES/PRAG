@@ -4,89 +4,118 @@
       "id" : "1",
     "title" : "Présentation x ",
     "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra, purus eu fringilla dignissim, dolor enim venenatis nulla, sollicitudin sagittis elit nibh et urna. Curabitur in gravida lorem. Morbi pellentesque neque fringilla faucibus pharetra. Fusce vel aliquam neque. Sed sollicitudin.",
-    "imageUrl" : "../images/enfant.png",
+    "imageUrl" : "../images/enfant.jpg",
       "type":"Presentation",
-      "style":"default"
+      "style":"Horizontal"
+    },{
+      "id" : "97",
+      "title" : "Présentation x ",
+      "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra, purus eu fringilla dignissim, dolor enim venenatis nulla, sollicitudin sagittis elit nibh et urna. Curabitur in gravida lorem. Morbi pellentesque neque fringilla faucibus pharetra. Fusce vel aliquam neque. Sed sollicitudin.",
+      "imageUrl" : "",
+      "type":"Presentation",
+      "style":"Vertical"
     },
     {
       "id" : "2",
       "title" : "Présentation y ",
       "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra, purus eu fringilla dignissim, dolor enim venenatis nulla, sollicitudin sagittis elit nibh et urna. Curabitur in gravida lorem. Morbi pellentesque neque fringilla faucibus pharetra. Fusce vel aliquam neque. Sed sollicitudin.",
-      "imageUrl" : "../images/enfant.png",
+      "imageUrl" : "../images/enfant.jpg",
       "type":"Presentation",
-      "style":"default"
+      "style":"HalfVertical"
     },
     {
       "id" : "3",
       "title" : "Présentation z",
       "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra, purus eu fringilla dignissim, dolor enim venenatis nulla, sollicitudin sagittis elit nibh et urna. Curabitur in gravida lorem. Morbi pellentesque neque fringilla faucibus pharetra. Fusce vel aliquam neque. Sed sollicitudin.",
-      "imageUrl" : "../images/enfant.png",
+      "imageUrl" : "../images/enfant.jpg",
       "type":"Presentation",
-      "style":"default"
+      "style":"HalfVertical"
+    },{
+      "id" : "0",
+      "title" : "Présentation w",
+      "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra, purus eu fringilla dignissim, dolor enim venenatis nulla, sollicitudin sagittis elit nibh et urna. Curabitur in gravida lorem. Morbi pellentesque neque fringilla faucibus pharetra. Fusce vel aliquam neque. Sed sollicitudin.",
+      "imageUrl" : "../images/enfant.jpg",
+      "type":"Presentation",
+      "style":"Vertical"
+    },{
+      "id" : "99",
+      "title" : "Présentation z",
+      "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra, purus eu fringilla dignissim, dolor enim venenatis nulla, sollicitudin sagittis elit nibh et urna. Curabitur in gravida lorem. Morbi pellentesque neque fringilla faucibus pharetra. Fusce vel aliquam neque. Sed sollicitudin.",
+      "imageUrl" : "../images/enfant.jpg",
+      "type":"Presentation",
+      "style":"HalfHorizontal"
+    },
+    {
+      "id" : "98",
+      "title" : "Présentation z",
+      "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra, purus eu fringilla dignissim, dolor enim venenatis nulla, sollicitudin sagittis elit nibh et urna. Curabitur in gravida lorem. Morbi pellentesque neque fringilla faucibus pharetra. Fusce vel aliquam neque. Sed sollicitudin.",
+      "imageUrl" : "../images/enfant.jpg",
+      "type":"Presentation",
+      "style":"HalfHorizontal"
     },
     {
       "id" : "5",
       "title" : "Notre Cause",
       "content" : "La paralysie cérébrale résulte de lésions survenues sur un cerveau avant, pendant ou après la naissance. Elle est souvent la conséquence d'une grande prématurité. Elle est la cause de handicap moteur la plus fréquente chez les enfants. Cette affection non évolutive du cerveau provoque des conséquences physiologiques grave et restreint les capacités motrices de l'enfant. Pourtant, ces atteintes, elles, sont évolutives. Nous possédons un fonctionnement cérébral exceptionnel, mais aussi puissant que soit ce mécanisme, il est conditionné par l'environnement extérieur. La première période de la vie est donc en cela à la fois une période de grande opportunité et de grande vulnérabilité. Chaque expérience compte, positive ou négative. Face à cela, un impératif social émerge : nous, adultes, avons la responsabilité de fournir à l'être humain qui vient de naître les conditions maximales qui lui offrent le meilleur. La France possède un des meilleures systèmes de santé au monde. Hélas, aujourd'hui les procédures de connaissance, d'homologation et de référencement des nouvelles théories, des nouveaux traitements sont beaucoup plus longues que les procédures de prise en charge. Ainsi, une forte majorité du budget de la Santé est consacré aux équipements, à l'accompagnement, aux hébergements des enfants en situation de handicap. C'est un constat : les financement publics sont généralement réservés aux soins PALLIATIFS, qui par définition sont un ensemble de mesures visant à endiguer les conséquences d'un problème, sans pour autant se préoccuper de sa cause.",
-      "imageUrl" : "../images/enfant.png",
+      "imageUrl" : "../images/enfant.jpg",
       "type":"Cause",
-      "style":"default"
+      "style":"Horizontal"
     },
     {
       "id" : "6",
       "title" : "Un véritable défi contre la montre",
       "content" : "Alors que le diagnostic initial d'un enfant IMC est un retard de développement moteur, les familles s'attendent à ce que tout soit mis en œuvre pour rattraper ce retard avant la fin de la croissance de l'enfant. Hélas, il est plus simple et plus rentable de classer nos enfants dans la catégorie des handicaps définitifs et de les traiter comme tel. La paralysie cérébrale est une affection non évolutive certes, mais ses conséquences elles, le sont, à condition d'assurer une rééducation intensive avant la fin de la croissance de l'enfant.",
-      "imageUrl" : "../images/enfant.png",
+      "imageUrl" : "../images/enfant.jpg",
       "type":"Cause",
-      "style":"default"
+      "style":"Horizontal"
     },
     {
       "id" : "7",
       "title" : "Une prise en charge en France insuffisante",
       "content" :  "En France, chaque année, 1800 naissances subissent des troubles métaboliques entrainant la Paralysie cérébrale. Les parents sont dirigés vers des prises en charges pluridisciplinaires (médicale, chirurgicale, paramédicales et psychologiques). Ces prises en charges restent insuffisantes, voire pour certains cas catastrophiques :-Pas de coordination des praticiens sur les évolutions de l'enfant ;-Automatisation des traitements et appareillages (attelles, sièges moulés, verticalisateur, corset...) ;-Proposition de chirurgies invasives et irréversibles de section des tendons pour « acquérir la marche » alors que cette intervention annule toutes possibilités de récupération et ne fait que « dissimuler » la vision de déformation du pied.Notre démarche est innovante en ce qu'elle propose une alternative aux carences de la prise en charge classique, en ce qu'elle est initiée et menée par des mamans ayant une forte expérience des techniques et thérapies de pointe pratiquées à l'étranger, et enfin, en ce qu'elle propose un appui unique sur toute la période de croissance jusqu'à l'orientation professionnelle.",
-      "imageUrl" : "../images/enfant.png",
+      "imageUrl" : "../images/enfant.jpg",
       "type":"Cause",
-      "style":"default"
+      "style":"Horizontal"
     },
     {
       "id" : "8",
       "title" : "Notre Action",
       "content" : "Nos programmes de soins sont personnalisés afin d'offrir à chaque enfant une prise en charge optimale à la mesure de ses besoins. Chacun des acteurs de notre prise en charge trouve un avantage professionnel, vital ou économique, et certainement humain à participer à nos programmes :",
-      "imageUrl" : "../images/enfant.png",
+      "imageUrl" : "../images/enfant.jpg",
       "type":"Actions",
-      "style":"default"
+      "style":"Horizontal"
     },
     {
       "id" : "9",
       "title" : "Pour les thérapeutes,",
       "content" : "un suivi détaillé des donnée une meilleure compréhension des troubles, une analyse plus pertinente des informations un vivier de données pour décider de la meilleure prescription et alimenter les projets de recherche",
-      "imageUrl" : "../images/enfant.png",
+      "imageUrl" : "../images/enfant.jpg",
       "type":"Actions",
-      "style":"default"
+      "style":"Horizontal"
     },
     {
       "id" : "10",
       "title" : "Pour les Parents,",
       "content" : "une prise en charge optimale de leur enfant une meilleure compréhension des troubles une meilleure adaptation de l'environnement de l'enfant la certitude d'une amélioration continue des contraintes motrices et cognitivesune meilleure réponse aux besoins en soutien scolaire de leur enfant",
-      "imageUrl" : "../images/enfant.png",
+      "imageUrl" : "../images/enfant.jpg",
       "type":"Actions",
-      "style":"default"
+      "style":"Horizontal"
     },
     {
       "id" : "11",
       "title" : "Pour les mécènes, ",
       "content" : "Un moyen de faire partie intégrante d'un réseau humain Une image positive de l'entreprise ou du philanthrope Une preuve de qualité et d'éthique associé à vos produits ou services Une couverture médiatique associée à nos actions Des déductions fiscales avantageuses",
-      "imageUrl" : "../images/enfant.png",
+      "imageUrl" : "../images/enfant.jpg",
       "type":"Actions",
-      "style":"default"
+      "style":"Horizontal"
     },
     {
       "id" : "11",
       "title" : "Pour les enfants,  ",
       "content" : "une croissance dans les meilleures conditions une aide précieuse dans les efforts d'apprentissage un encadrement de qualité pour assurer un épanouissement psychomoteur une meilleure chance d'autonomie pour une vie adulte meilleure",
-      "imageUrl" : "../images/enfant.png",
+      "imageUrl" : "../images/enfant.jpg",
       "type":"Actions",
-      "style":"default"
+      "style":"Horizontal"
     }
 
   ]

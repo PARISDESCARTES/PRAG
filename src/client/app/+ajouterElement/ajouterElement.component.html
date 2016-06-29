@@ -1,21 +1,51 @@
 <!--  commentary      !-->
-<p>
-<h2>
-  Ajouter un élément de suivi
-  </h2>
-<p>
+<div id="global">
+  <p>
+  <h1>
+    Ajouter un élément de suivi
+  </h1>
+  <p>
 
-<div id="type_div">
-  <label for="lst_label" >Type d'élements :    </label>
-  <p-dropdown [options]="categorie" ngControl="selectedCategorie" id="lst_label"class="lst_deroulante"> d</p-dropdown>
-</div>
+  <div id="type_div">
+    <label for="lst_label" >Type d'élements :    </label>
+    <p-dropdown [options]="categorie" ngControl="selectedCategorie" id="lst_label" class="lstde"></p-dropdown>
+  </div>
 
-<div id="div_mil">
-  <label for="titre_label" >Titre : </label>
-  <input type="text" id = "titre_label" class ="TitreCssClass" pInputText />
-  <label for="date_label">Date : </label>
-  <input type="text" id = "date_label" class ="datecss" pInputText />
-  <!--<p-calendar ngControl="date" id="date_label" class="datecss"></p-calendar>-->
+  <div id="div_mil">
+
+
+    <label for="titre_label" >Titre : </label>
+    <input type="text" id = "titre_label" class="titrecss" pInputText />
+
+
+    <label for="date_label">Date : </label>
+    <input type="text" id = "date_label" class="datecss" pInputText />
+
+
+  </div>
+
+
+  <div id="div_desc">
+    <label for="desc_label">Description : </label>
+    <textarea id="desc_label" class="descss" rows="10" cols="40" pInputTextarea></textarea>
+
+  </div>
+
+  <div id="div_thexo">
+
+
+    <label for="lst_th" >Thérapie :    </label>
+    <p-dropdown [options]="cat_therapie" ngControl="selectedTherapie" id="lst_th"class="therapiecss"></p-dropdown>
+
+
+    <label for="exo_label">Exercices : </label>
+    <textarea id="exo_label" class="exocss" rows="5" cols="30" pInputTextarea></textarea>
+  </div>
+
+
+  <div id="div_btnsubmit">
+    <button pButton type="button" (click)="onclick()"  class="btn" label="Soumettre"></button>
+  </div>
 
 </div>
 

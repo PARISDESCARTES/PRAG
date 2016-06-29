@@ -40,6 +40,9 @@
 </section>
 
 <section id="invitation">
+
+
+	
 	<table>
 		<tr>
 			<th colspan='4'>Inviter des amis</th>
@@ -50,9 +53,26 @@
 				<p>Nous faire connaître auprès de vos amis</p>
 			</td>
 		</tr>
+		
+		
 		<tr>
+			<td>
+				<div id="fb-root"></div>
+				<script>(function(d, s, id) {
+				  var js, fjs = d.getElementsByTagName(s)[0];
+				  if (d.getElementById(id)) return;
+				  js = d.createElement(s); js.id = id;
+				  js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.6";
+				  fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+				</script>
+				<div class="fb-share-button" data-href="http://169.254.54.156:5555/don" data-layout="button" data-size="large" data-mobile-iframe="true">
+					<a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F169.254.54.156%3A5555%2Fdon&amp;src=sdkpreparse">
+						<img class='social' alt='Facebook' src="../../images/ImageFacebook.png" />
+					</a>
+				</div>
+			</td>
 			<td><img class='social' alt='Google+' src="../../images/googleplus.png" /></td>
-			<td><img class='social' alt='Facebook' src="../../images/ImageFacebook.png" /></td>
 			<td><img class='social' alt='Twitter' src="../../images/ImageTwitter.png" /></td>
 			<td><img class='social' alt='Linked in' src="../../images/ImageLinkedIn.png" /></td>
 		</tr>

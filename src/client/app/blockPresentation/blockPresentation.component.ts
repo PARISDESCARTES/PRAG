@@ -11,7 +11,7 @@ import {HTTP_PROVIDERS} from "@angular/http";
   inputs : ['title','content','imageUrl','id'],
   providers: [HTTP_PROVIDERS,BlockService],
   styleUrls: ['blockPresentation.component.css'],
-  host:     {'[class.Vertical]':'Vertical','[class.Horizontal]':'Horizontal','[class.HalfHorizontal]':'HalfHorizontal','[class.HalfVertical]':'HalfVertical'}
+  host:     {'[class.Vertical]':'Vertical','[class.Horizontal]':'Horizontal','[class.HalfHorizontal]':'HalfHorizontal','[class.HalfVertical]':'HalfVertical','[class.Titre]':'Titre'}
 })
 export class BlockComponent {
 
@@ -19,6 +19,7 @@ export class BlockComponent {
   Horizontal : bool = false;
   HalfHorizontal : bool = false;
   HalfVertical : bool = false;
+  Titre : bool = false;
 
   id = [];
   block;
@@ -42,6 +43,9 @@ export class BlockComponent {
                   }
                   if(this.block.style == "HalfVertical"){
                     this.HalfVertical= true;
+                  }
+                  if(this.block.style == "Titre"){
+                    this.Titre= true;
                   }
               }
           });

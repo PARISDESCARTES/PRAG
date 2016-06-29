@@ -1,9 +1,38 @@
+  /* ------  Title  ---------- */
+ @media screen and (min-width: 900px)  and (max-width: 8000px) {
+
+  :host.Titre {
+     height:auto;
+     overflow:hidden;
+     margin-bottom : 30px;
+     width : 100%;
+     float : right;
+
+  }
+
+   .Titre .textContent{
+      text-align: center;
+      margin-bottom : 30px;
+
+   }
+
+     .Titre .imageContent .conteneurImg img[src=""]{
+
+              display:none;
+     }
+
+
+ }
+ @media screen and (min-width: 450px) and (max-width: 900px) {
+
+ }
+  /* ------------------------------ */
 
  /* ------  HORIZONTAL  ---------- */
 @media screen and (min-width: 900px)  and (max-width: 8000px) {
 
   :host.Horizontal {
-    display: block;
+  //  display: block;
      height:auto;
      overflow:hidden;
      margin-bottom : 30px;
@@ -19,10 +48,15 @@
     width : 50%;
     float:left;
     padding-left : 50px;
-    padding-top : 50px;
+    padding-top : 30px;
     padding-bottom : 50px;
     min-width : 400px;
   }
+
+       .Horizontal .imageContent .conteneurImg img[src=""]{
+
+                display:none;
+       }
 }
 @media screen and (min-width: 450px) and (max-width: 900px) {
 
@@ -32,6 +66,11 @@
       padding-right : 70px;
 
   }
+
+         .Horizontal .imageContent .conteneurImg img[src=""]{
+
+                  display:none;
+         }
 }
  /* ------------------------------ */
 
@@ -48,6 +87,11 @@
       padding-top : 50px;
       min-width : 400px;
    }
+
+          .Vertical .imageContent .conteneurImg img[src=""]{
+
+                   display:none;
+          }
  }
  @media screen and (min-width: 450px) and (max-width: 900px) {
 
@@ -58,6 +102,11 @@
       min-width : 400px;
 
    }
+
+             .Vertical .imageContent .conteneurImg img[src=""]{
+
+                      display:none;
+             }
  }
   /* ------------------------------ */
 
@@ -70,24 +119,46 @@
        overflow:hidden;
        margin-bottom : 30px;
        float:left;
-       padding-right : 50px;
     }
 
 
     .HalfHorizontal .textContent{
       width : 60%;
-      float:left;
+      float:right;
     }
 
      .HalfHorizontal .imageContent{
       width : 40%;
       float:left;
-      padding-left : 30px;
+      padding-left : 10px;
+      padding-right : 10px;
       padding-top : 30px;
       padding-bottom : 50px;
 
 
+
     }
+      .HalfHorizontal .imageContent .conteneurImg{
+          overflow:hidden;
+          -webkit-border-radius:75px;
+          -moz-border-radius:75px;
+          border-radius:75px;
+          width:150px;
+          height:150px;
+
+       }
+
+        .HalfHorizontal .imageContent img:not([scr='']){
+
+                 width:100%;
+                 height:100%;
+        }
+
+         .HalfHorizontal .imageContent .conteneurImg img[src=""]{
+
+                  display:none;
+         }
+
   }
   @media screen and (min-width: 450px) and (max-width: 900px) {
 
@@ -95,9 +166,30 @@
         padding-top : 50px;
         padding-left : 70px;
         padding-right : 70px;
-
-
     }
+
+    .HalfHorizontal .imageContent .conteneurImg{
+        overflow:hidden;
+        -webkit-border-radius:50px;
+        -moz-border-radius:50px;
+        border-radius:50px;
+        width:250px;
+        height:250px;
+        margin: 0 auto;
+
+     }
+
+      .HalfHorizontal .imageContent img:not([scr='']){
+
+               width:100%;
+               height:100%;
+      }
+
+               .HalfHorizontal .imageContent .conteneurImg img[src=""]{
+
+                        display:none;
+               }
+
   }
    /* ------------------------------ */
 
@@ -123,11 +215,31 @@
      .HalfVertical .imageContent{
       float:left;
       min-width : 400px;
+      min-width : 400px;
           padding-left : 50px;
           padding-top : 50px;
           padding-right : 50px;
 
+
     }
+
+         .HalfVertical .imageContent .conteneurImg{
+
+                      width:300px;
+                      height:200px;
+
+        }
+
+          .HalfVertical .imageContent .conteneurImg img:not([scr='']){
+
+                   width:100%;
+                   height:100%;
+          }
+
+         .HalfVertical .imageContent .conteneurImg img[src=""]{
+
+                  display:none;
+         }
 
   }
   @media screen and (min-width: 450px) and (max-width: 900px) {
@@ -143,5 +255,10 @@
             padding-right : 70px;
             min-width : 400px;
     }
+
+             .HalfVertical .imageContent .conteneurImg img[src=""]{
+
+                      display:none;
+             }
   }
    /* ------------------------------ */

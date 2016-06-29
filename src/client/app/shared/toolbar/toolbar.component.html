@@ -1,4 +1,24 @@
 <div class="toolbar">
-	<a>Connexion | </a>
+	<a href="#popup">Connexion | </a>
 	<a [routerLink]="['/inscription']">S'inscrire </a>
+</div>
+
+
+<div class="overlay" id="popup">
+	<form id="form-popup">
+	
+	<label for="login" >Identifiant</label>
+	<input id="login" name="login" type="text" size="80" pInputText [(ngModel)]="login" required/>
+	
+	<label for="pwd" >Mot de passe</label>
+	<input id="pwd" name="pwd" type="password" size="80" pInputText [(ngModel)]="pwd" required/>
+	
+	
+	<input type="submit" pInputSubmit value="Se connecter" />
+	<a href="." >Mot de passe oublié</a>
+	<a href="#close" title="Fermer la fenêtre.">
+		<input type="button" pInputButton value="Retour" />
+	</a>
+	</form>
+
 </div>

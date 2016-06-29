@@ -1,3 +1,7 @@
+<h2>Inscription</h2>
+<em><img src='../../images/asterisque.jpg' />Les champs suivies d'un astérisque sont obligatoires.</em>
+
+
 <form id='flexbox'>
 
 <fieldset id='choix'>
@@ -18,13 +22,13 @@
 	<legend>Compte</legend>
 	
 	<label for="login" >Identifiant du compte</label>
-	<input id="login" name="login" type="text" size="80" pInputText [(ngModel)]="login" required/>
+	<input id="login" name="login" type="text" pattern=".{4,}" placeholder="Quatre caractères minimum" size="80" pInputText [(ngModel)]="login" required/>
 	
 	<label for="pwd" >Mot de passe</label>
-	<input id="pwd" name="pwd" type="password"  size="80" pInputText [(ngModel)]="pwd" required/>
+	<input id="pwd" name="pwd" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder='Huit caractères minimum dont au moins un chiffre, une minuscule et une majuscule' size="80" pInputText [(ngModel)]="pwd" required/>
 	
 	<label for="pwd2" >Confirmez votre mot de passe</label>
-	<input id="pwd2" name="pwd2" type="password" size="80" pInputText [(ngModel)]="pwd2" required/>
+	<input id="pwd2" name="pwd2" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" size="80" pInputText [(ngModel)]="pwd2" required/>
 </fieldset>
 
 <fieldset>
@@ -37,13 +41,13 @@
 	<input id="lastname" name="lastname" type="text" size="80" pInputText [(ngModel)]="lastname" required/>
 	
 	<label for="tel" >Numéro de téléphone</label>
-	<input id="tel" name="tel" type="tel" size="80" pInputText [(ngModel)]="tel" />
+	<input id="tel" name="tel" type="tel" pattern="^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,5})|(\(?\d{2,6}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$" size="80" pInputText [(ngModel)]="tel" />
 	
 	<label for="email" >Adresse mél</label>
-	<input id="email" name="email" type="email" size="80" pInputText [(ngModel)]="email" required/>
+	<input id="email" name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" size="80" pInputText [(ngModel)]="email" required/>
 	
 	<label for="email2" >Confirmez votre adresse mél</label>
-	<input id="email2" name="firstname" type="email" size="80" pInputText [(ngModel)]="email2" required/>
+	<input id="email2" name="firstname" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" size="80" pInputText [(ngModel)]="email2" required/>
 </fieldset>
 
 <fieldset>
@@ -62,9 +66,10 @@
 
 <fieldset>
 	<legend>Validation</legend>
-	<input type="submit" size="80" pInputSubmit value="Créer un compte" />
-	<a href='..' ><input type="button" size="80" pInputButton value="Annuler" /></a>
+	<input type="submit" pInputSubmit value="Créer un compte" />
+	<a href='..' ><input type="button" pInputButton value="Annuler" /></a>
 </fieldset>
 
-
 </form>
+
+<span id='message-box'>Un courriel de confirmation vous sera envoyé.</span>

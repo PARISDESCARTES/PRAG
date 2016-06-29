@@ -13,6 +13,7 @@ import { NameListService, NavbarComponent, ToolbarComponent, FooterComponent, Fo
   selector: 'sd-app',
   viewProviders: [NameListService, HTTP_PROVIDERS],
   templateUrl: 'app.component.html',
+  styleUrls: ['app.component.css'],
   directives: [ROUTER_DIRECTIVES, NavbarComponent, ToolbarComponent, FooterComponent, FooterFixedComponent]
 })
 export class AppComponent {}

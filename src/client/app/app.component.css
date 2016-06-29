@@ -1,0 +1,12 @@
+header{
+	display : flex;
+	justify-content: center;
+	align-items: center;
+	margin : 0 !important;
+	padding : 0 !important;
+	text-align : center;
+	width : 100%;
+}
+header img{
+	
+}

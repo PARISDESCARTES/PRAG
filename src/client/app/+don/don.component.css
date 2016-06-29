@@ -70,3 +70,11 @@ h2 {
 .social:last-child{
 	margin-right: 1em;
 }
+
+#paypal{
+	text-align : center;
+}
+
+#paypal:hover, .social:hover, input[type=submit]:hover{
+	opacity:0.5;
+}

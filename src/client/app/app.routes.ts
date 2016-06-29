@@ -9,6 +9,7 @@ import { DonRoutes } from './+don/index';
 import { EnfantRoutes } from './+enfant/index';
 import { MembresRoutes } from './+membres/index';
 import { PartenairesRoutes } from './+partenaires/index';
+import { InscriptionRoutes } from './+inscription/index';
 
 const routes: RouterConfig = [
   ...HomeRoutes,
@@ -20,6 +21,7 @@ const routes: RouterConfig = [
   ...DonRoutes,
   ...ActionsRoutes,
   ...EnfantRoutes
+  ...InscriptionRoutes
 
 ];
 

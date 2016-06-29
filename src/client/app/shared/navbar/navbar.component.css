@@ -28,6 +28,9 @@ nav a.router-link-active {
 ul li {
   display: inline-block;
 }
+ul li:not(#presentation):hover{
+	opacity  : 0.5;
+}
 .sousmenu_presentation{
   display:none;
   width : 10em;

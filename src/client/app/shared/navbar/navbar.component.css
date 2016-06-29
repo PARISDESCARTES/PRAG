@@ -6,6 +6,10 @@
   margin-right:0.5em;
 }
 
+nav{
+    text-align:center;
+}
+
 nav a {
   color: #009999;
   font-size: 1em;
@@ -16,7 +20,6 @@ nav a {
   margin-right: 1em;
   text-decoration: none;
   vertical-align: middle;
-  float:right;
 }
 
 nav a.router-link-active {
@@ -24,7 +27,6 @@ nav a.router-link-active {
 }
 ul li {
   display: inline-block;
-  float : right;
 }
 .sousmenu_presentation{
   display:none;
@@ -38,7 +40,8 @@ ul li {
 }
 #presentation:hover ul{
   display: block;
-  padding-top: 2.5em;
+  padding-top: 3em;
+    margin-top:-3em;
   background-color:#009999 ;
 
 }
@@ -54,4 +57,5 @@ ul li {
  }
   .sousmenu_presentation li {
   width : 10em;
+  float : right;
  }

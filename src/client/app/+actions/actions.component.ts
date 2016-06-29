@@ -11,9 +11,8 @@ import {BlockService} from "../blockPresentation/blockService";
   moduleId: module.id,
   selector: 'sd-actions',
   templateUrl: 'actions.component.html',
-  styleUrls: ['actions.component.css']
-
-      directives: [BlockComponent],
+  styleUrls: ['actions.component.css'],
+  directives: [BlockComponent],
    providers: [HTTP_PROVIDERS,BlockService]
 })
 export class ActionsComponent {

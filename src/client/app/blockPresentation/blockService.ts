@@ -43,6 +43,8 @@ getIdType(type:String) {
         });
       }
   });
+  
+  }
 
 
 
